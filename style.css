@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.weatherMinute {
+  text-decoration: underline;
+  /* border: 2px solid black; */
+  padding-top: 40px;
+  text-align: center;
+  font-size: 4em;
+}
+
+.gridSearch {
+  margin: 20px auto;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.gridSearchItem {
+  margin: 20px auto;
+  /* border: 2px solid green; */
+}
+
+#search-input {
+  font-size: 1.5em;
+  height: 2em;
+  width: 15em;
+}
+#search-button {
+  font-size: 1.5em;
+  height: 2em;
+  width: 4.5em;
+}
+
+/* grandParent to include scroll log*/
+.grandParent {
+  /* border: solid black; */
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* log activity with scroll*/
+.logActivity {
+  border: 2px solid blue;
+  padding: 20px;
+  overflow-y: auto; /* enable vertical scroll*/
+  width: 100%;
+  height: 500px; /* sets height of the log activity*/
+  margin: 10px 0;
+  font-size: 2em;
+}

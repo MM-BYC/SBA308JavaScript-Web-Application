@@ -9,13 +9,32 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <script src="app.js" async defer></script>
+        <!-- type="module" !important -->
+        <script type="module" src="app.js" async defer></script>
 
     </head>
-    <button onclick(())>Clickme!</button>
 
     <body>
+        <div class="weatherMinute">
+            WEATHER MINUTE
+        </div>
+        <div class="gridSearch">
+            <div class="gridSearchItem">
+                <input type="text" id="search-input" placeholder="Enter Country or city name">
+            </div>
+            <div class="gridSearchItem">
+                <button id="search-button">Search</button>
 
+            </div>
+
+
+        </div>
+
+        <div class="grandParent">
+
+            <div class="logActivity">powered by weatherstack</div>
+
+        </div>
 
     </body>
 
