@@ -1,11 +1,12 @@
 import * as apiBuilder from "./apifactory.js";
 import { fetchData } from "./fetchfunction.js";
 
-let endPointCity = "";
 /*  data from SEARCH:
 construct the endpoint
-    get the city from screen search input bar
+    get the city from the screen search input bar
 */
+let endPointCity = "";
+
 const searchButton = document.querySelector("#search-button");
 const searchInput = document.querySelector("#search-input");
 

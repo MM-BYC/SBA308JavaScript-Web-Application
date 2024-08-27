@@ -1,8 +1,6 @@
 /* 
- fetchasyncawait.js
-
+ module-name:fetchfunction.js
  task: get Data from API
-
  output: json
 
 */
